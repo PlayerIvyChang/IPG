@@ -16,7 +16,6 @@ public class CardView : MonoBehaviour
 
     public Vector3 dragStartPosition;
     public Quaternion dragStartRotation;
-    private readonly object ManaSystem;
 
     public Vector3 DefaultScale { get; set; } = Vector3.one;
 
