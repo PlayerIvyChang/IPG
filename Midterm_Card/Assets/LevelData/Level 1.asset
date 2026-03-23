@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4a6b24b4df3e4964291c3ce2014206d5, type: 3}
+  m_Name: Level 1
+  m_EditorClassIdentifier: Assembly-CSharp::LevelData
+  <LevelNumber>k__BackingField: 1
+  <Enemies>k__BackingField:
+  - {fileID: 11400000, guid: bc01316a9d6c2a446bf8cbceaf9c839a, type: 2}
+  <CardRewards>k__BackingField:
+  - {fileID: 11400000, guid: d1b0fcca58acf6548942b089545aac6e, type: 2}
+  - {fileID: 11400000, guid: d00df227d5c3b534c9938d6dbe7d241e, type: 2}
+  - {fileID: 11400000, guid: ccc7e02f8e0f74646a5bfcb5b443748d, type: 2}

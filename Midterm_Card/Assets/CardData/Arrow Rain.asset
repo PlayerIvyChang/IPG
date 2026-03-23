@@ -1,0 +1,55 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9fcf8fa828a2968478444fbd54cc1c2e, type: 3}
+  m_Name: Arrow Rain
+  m_EditorClassIdentifier: Assembly-CSharp::CardData
+  <Description>k__BackingField: Deal 4 damages to a random enemy two times
+  <cost>k__BackingField: 2
+  <Image>k__BackingField: {fileID: 21300000, guid: 661574ac7c79b9742bc700991c426b63, type: 3}
+  <ManualTargetEffect>k__BackingField:
+    rid: -2
+  <OtherEffects>k__BackingField:
+  - rid: 9141728268275941569
+  - rid: 9141728268275941574
+  references:
+    version: 2
+    RefIds:
+    - rid: -2
+      type: {class: , ns: , asm: }
+    - rid: 9141728268275941569
+      type: {class: AutoTargetEffect, ns: , asm: Assembly-CSharp}
+      data:
+        <TargetMode>k__BackingField:
+          rid: 9141728268275941570
+        <Effect>k__BackingField:
+          rid: 9141728268275941571
+    - rid: 9141728268275941570
+      type: {class: RandomEnemyTM, ns: , asm: Assembly-CSharp}
+      data: 
+    - rid: 9141728268275941571
+      type: {class: DealDamageEffect, ns: , asm: Assembly-CSharp}
+      data:
+        damageAmount: 4
+    - rid: 9141728268275941574
+      type: {class: AutoTargetEffect, ns: , asm: Assembly-CSharp}
+      data:
+        <TargetMode>k__BackingField:
+          rid: 9141728268275941575
+        <Effect>k__BackingField:
+          rid: 9141728268275941576
+    - rid: 9141728268275941575
+      type: {class: RandomEnemyTM, ns: , asm: Assembly-CSharp}
+      data: 
+    - rid: 9141728268275941576
+      type: {class: DealDamageEffect, ns: , asm: Assembly-CSharp}
+      data:
+        damageAmount: 4

@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ed72332643279194aa5cf54d6615eee1, type: 3}
+  m_Name: FlameManPlayerData
+  m_EditorClassIdentifier: Assembly-CSharp::PlayerData
+  <image>k__BackingField: {fileID: 21300000, guid: 00311877d6efae145b7c065e4b0ce56c, type: 3}
+  <Health>k__BackingField: 30
+  <Deck>k__BackingField:
+  - {fileID: 11400000, guid: 39693636205ca8f4d987f75798a21181, type: 2}
+  - {fileID: 11400000, guid: 39693636205ca8f4d987f75798a21181, type: 2}
+  - {fileID: 11400000, guid: 6f3835695a3d8e043b570b5116e1b9db, type: 2}
+  - {fileID: 11400000, guid: 6f3835695a3d8e043b570b5116e1b9db, type: 2}
+  - {fileID: 11400000, guid: 6f3835695a3d8e043b570b5116e1b9db, type: 2}
+  - {fileID: 11400000, guid: 77f19a511fa47f1409329da97452c201, type: 2}
+  - {fileID: 11400000, guid: ccc7e02f8e0f74646a5bfcb5b443748d, type: 2}
